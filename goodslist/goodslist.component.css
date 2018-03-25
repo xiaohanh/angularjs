@@ -1,0 +1,16 @@
+ul,li{
+    list-style: none;
+
+}
+li{
+    width: 40%;
+    font-size: 10px;
+    float: left;
+    margin: 5%;
+    height: 150px;
+    background: rgb(25, 214, 34);
+}
+img{
+    width:127px;
+    height:110px;
+}
