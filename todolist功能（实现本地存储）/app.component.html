@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+
+        <header>
+                <section>
+                    <form action="javascript:postaction()" id="form">
+                        <label for="title">ToDoList</label>
+                        
+                        <input type="text" id="title" name="title" placeholder="添加ToDo" [(ngModel)]="content"  required="required" autocomplete="off" />
+                        <button (click)="addData()" class="btn"></button>   
+                    </form>
+                </section>
+                    
+                </header>
+                
+                   
+                    <app-todolist [arrData1]="tolist"  (getIndex)="getI($event)"></app-todolist>
+                
+        
+</div>
+
