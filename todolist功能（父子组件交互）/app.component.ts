@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+﻿import { Component } from '@angular/core';
 // 根组件，一个组件只有一个html模板
 @Component({
   selector: 'app-root',

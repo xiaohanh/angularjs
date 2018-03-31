@@ -1,0 +1,43 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content  padding class="con">
+  <div class="image">
+    <img src="../../assets/imgs/qie.jpg">
+  </div>
+  <ion-list class="list">
+
+    <ion-item>
+      <ion-label>登录账户</ion-label>
+      <ion-input type="text" [(ngModel)]="log" ></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>登录密码</ion-label>
+      <ion-input type="password" [(ngModel)]="pas"></ion-input>
+    </ion-item>
+    <ion-item>
+      <button ion-button large outline (click)="login()" class="login">登录</button>
+    </ion-item>
+  </ion-list>
+  
+</ion-content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+  
